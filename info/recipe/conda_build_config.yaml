@@ -1,0 +1,14 @@
+c_compiler: clang
+cpu_optimization_target: nocona
+cxx_compiler: clangxx
+fortran_compiler: gfortran
+lua: '5'
+numpy: '1.14'
+perl: 5.26.0
+pin_run_as_build:
+  python:
+    max_pin: x.x
+    min_pin: x.x
+python: '3.5'
+r_base: '3.4'
+target_platform: osx-64
